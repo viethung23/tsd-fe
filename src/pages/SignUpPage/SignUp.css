@@ -1,0 +1,46 @@
+.page__signUp {
+  display: grid;
+  place-items: center;
+}
+
+.logo {
+  height: 220px;
+  width: 220px;
+}
+
+.page__signUp input {
+  width: 350px;
+  font-size: 27px;
+  height: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  margin-top: 15px;
+}
+
+.select__signUp {
+  margin-top: 20px;
+  height: 50px;
+  width: 350px;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.signUp {
+  width: 350px;
+  height: 55px;
+  margin-top: 25px;
+  background: rgba(243, 112, 34, 1);
+  border: none;
+  color: white;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.register {
+  color: rgba(243, 112, 34, 1);
+  text-decoration: none;
+  margin-top: 30px;
+  font-size: 25px;
+}

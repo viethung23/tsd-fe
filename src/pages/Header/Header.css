@@ -1,0 +1,22 @@
+.header {
+  place-items: center;
+  display: grid;
+  z-index: 999;
+}
+
+.header__content {
+    width: 350px;
+    background-color: rgba(243, 112, 34, 1);
+    border-radius: 0 0 10px 10px;
+}
+
+.header__logo {
+    height: 100px;
+    width: 100px;
+}
+
+.header__title {
+    margin-top: 30px;
+    padding-right: 30px;
+    color: white;
+}

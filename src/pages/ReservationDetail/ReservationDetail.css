@@ -1,0 +1,109 @@
+.detail {
+  place-items: center;
+  margin-top: 20px;
+  display: grid;
+  width: 100%;
+}
+
+.detail__content,
+.currentBooking,
+.historyContent {
+  width: 350px;
+}
+
+.driverHistory {
+  place-items: center;
+  margin-top: 20px;
+  display: grid;
+  width: 100%;
+}
+
+.detail__content p {
+  margin-bottom: 10px;
+}
+
+.send,
+.receive {
+  font-size: 15px;
+}
+
+.transportation,
+.goods__content,
+.car,
+.user__info,
+.historyContent {
+  border: 1px solid rgba(243, 112, 34, 1);
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 6px;
+}
+
+.historyContent {
+  margin-top: 10px;
+}
+
+.detail__footer,
+.shippingButton {
+  place-items: center;
+  margin-top: 30px;
+  display: grid;
+  width: 100%;
+}
+
+.shippingButton {
+  margin-top: 15px;
+}
+
+.shippingButton button {
+  width: 340px;
+  margin-left: 5px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.shippingButton .call {
+  background: rgba(218, 208, 201, 1);
+  height: 40px;
+  font-weight: bold;
+}
+
+.shippingButton .accept {
+  background: rgba(243, 112, 34, 1);
+  height: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.orderCar {
+  width: 330px;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(243, 112, 34, 1);
+  height: 50px;
+}
+
+.error-message {
+  width: 350px;
+  text-align: center;
+  place-items: center;
+  display: grid;
+  width: 100%;
+  color: red;
+}
+
+.back {
+  place-items: center;
+  margin-top: 20px;
+  display: grid;
+  width: 100%;
+}
+
+.backButton {
+  width: 100px;
+  background-color: rgba(243, 112, 34, 1);
+  color: white;
+  border-radius: 6px;
+  border: none;
+}

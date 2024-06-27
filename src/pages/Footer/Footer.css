@@ -1,0 +1,64 @@
+.footer {
+  margin-top: 30px;
+  place-items: center;
+  display: grid;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  bottom: 0;
+  z-index: 99;
+}
+
+.footer__content {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+}
+
+.footer button {
+  border-radius: 15px;
+  list-style: none;
+  height: 50px;
+  width: 50px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex; /* Để sử dụng flexbox cho button */
+  flex-direction: column; /* Để xếp icon và văn bản dọc */
+  align-items: center; /* Để canh chỉnh icon giữa button */
+  justify-content: center; /* Để canh chỉnh icon giữa button */
+}
+
+.footer i {
+  font-size: 30px;
+  color: #050506;
+  text-decoration: none; /* Loại bỏ gạch chân cho tất cả icon */
+}
+
+.footer .search {
+  background-color: rgba(243, 112, 34, 1);
+  margin-top: 0;
+  border-radius: 50%;
+  color: white;
+  box-shadow: 0px 4px 12px 0px;
+}
+
+.modal__input {
+  width: 300px;
+}
+
+.ok {
+  background-color: rgba(243, 112, 34, 1);
+  margin-top: 10px;
+  margin-left: 100px;
+  width: 80px;
+  height: 40px;
+  color: white;
+  border-radius: 6px;
+  font-size: 18px;
+}
+/* Bỏ gạch xanh dưới các link trong footer */
+.footer a {
+  text-decoration: none;
+}

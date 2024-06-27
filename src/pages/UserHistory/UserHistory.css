@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+  .ellipsis-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+  }
+
+  .expanded-text {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
+    max-width: unset;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .img__search {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .img__search {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.divider {
+  border-top: 1px solid #000; /* Đường gạch ngang màu đen */
+  width: 20px; /* Độ rộng của đường gạch ngang */
+  margin: 0 10px; /* Khoảng cách từ mỗi phía của đường gạch ngang */
+}

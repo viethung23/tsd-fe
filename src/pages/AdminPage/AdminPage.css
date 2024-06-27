@@ -1,0 +1,44 @@
+.container {
+  padding: 20px;
+}
+
+.order-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.info-item svg {
+  margin-right: 8px;
+  fill: #f37022;
+}
+
+.btn-dashboard {
+  margin-bottom: 10px;
+  width: 80px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: white;
+  color: rgb(43, 43, 43);
+  border: 1px solid #f37022;
+  font-weight: bold;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.btn-dashboard.selected {
+  background-color: #f37022; /* Màu đậm cho nút đã chọn */
+  color: white;
+}
+
+.btn-dashboard:hover {
+  color: white;
+  background-color: #e25e1e;
+}

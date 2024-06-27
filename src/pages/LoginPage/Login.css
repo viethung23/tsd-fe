@@ -1,0 +1,71 @@
+.page {
+  margin-top: 50px;
+  display: grid;
+  place-items: center;
+}
+
+.logo {
+  height: 220px;
+  width: 220px;
+}
+
+.phone__login {
+  height: 50px;
+  width: 350px;
+  font-size: 27px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+.password__login {
+  margin-top: 20px;
+  height: 50px;
+  width: 350px;
+  font-size: 27px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+.select__login {
+  margin-top: 20px;
+  height: 50px;
+  width: 350px;
+  font-size: 27px;
+  border-radius: 5px;
+}
+
+.forgotPass {
+  margin-left: 170px;
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.forgotPassLink {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgba(243, 112, 34, 1);
+}
+
+.login {
+  width: 350px;
+  height: 55px;
+  margin-top: 30px;
+  background: rgba(243, 112, 34, 1);
+  border: none;
+  color: white;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.register {
+  color: rgba(243, 112, 34, 1);
+  text-decoration: none;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+/* Admin Login */

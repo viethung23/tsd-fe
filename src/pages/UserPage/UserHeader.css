@@ -1,0 +1,29 @@
+.user__header__bg {
+  background-color: #f37022;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+@media screen and (max-width: 768px) {
+  .user__header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .user__header__logo {
+    width: 75px;
+    height: 75px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .user__header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .user__header__logo {
+    width: 100px;
+    height: 100px;
+  }
+}
