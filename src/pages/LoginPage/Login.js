@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import myImage from "../images/logoExe.png";
 import "../LoginPage/Login.css";
 import { useAuth } from "../../context/AuthContext";
+import { colors } from "@mui/material";
 
 export default function Login() {
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -55,6 +56,7 @@ export default function Login() {
         }
       }
     } catch (error) {
+      navigate('/user')
       toast.error("Đã xảy ra lỗi khi đăng nhập");
     }
   };
@@ -64,6 +66,9 @@ export default function Login() {
       <div>
         <img src={myImage} alt="" className="logo" />
       </div>
+      <p style={{ marginLeft: '16px', marginRight: '16px' }}>
+        Bấm <strong>đăng nhập</strong> để đi thẳng vào home page. Không cần đăng nhập vì backend đã bị off
+      </p>
       <div>
         <input
           className="phone__login"
